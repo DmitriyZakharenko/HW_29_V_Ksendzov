@@ -2,7 +2,7 @@ HW_1. The first part
 Linux terminal (GitBash) commands
 
 1) Посмотреть где я. --------------- pwd
-2) Создать папку. ------------------ mkdir
+2) Создать папку. ------------------ mkdir Test1
 3) Зайти в папку.------------------- cd !$ // cd group_29_free
 4) Создать 3 папки. ---------------- mkdir test1 test2 test3
 5) Зайти в любую папку.------------- cd group_29_free
@@ -43,6 +43,8 @@ http://162.55.220.72:5005/terminal-hw-request
 --------- curl http://162.55.220.72:5005/terminal-hw-request
 --------- curl "http://162.55.220.72:5005/get_method?name=DmitriyZakharenko&age=29"
 2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+touch auto.ch
+vim auto.ch --> i :
 ---------
 	cd c:/Users/anafo/group_29_free/HW/Auto/Auto1
 	mkdir script1 script2 script3
@@ -52,4 +54,7 @@ http://162.55.220.72:5005/terminal-hw-request
 	ls
 	touch move1.txt move2.txt
 	cp move1.txt move2.txt c:/Users/anafo/group_29_free/HW/Auto
+---------
+Esc --> :wq
+sh auto.ch
 =============================================================================================
